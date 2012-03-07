@@ -1,0 +1,20 @@
+<dl class="portlet sbbclock"
+    i18n:domain="ftw.portlet.clock">
+
+    <dt class="portletHeader clearfix">
+        <span class="portletTopLeft"></span>
+        <span class="title"
+          i18n:translate="sbb_clock_portlet_title">Clock</span>
+      <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem" tal:define="url view/get_swf_url" tal:condition="url">
+            <object type="application/x-shockwave-flash" style="width:238px;height:134px" data="" tal:attributes="data url">
+            <param value="http://someurl.com" tal:attributes="value url" name="movie" />
+            <param name="quality" value="high" />
+            <param name="allowFullScreen" value="false" />
+            </object>
+            <p style="text-align:center" tal:content="view/getDate"></p>
+    </dd>
+</dl>
+

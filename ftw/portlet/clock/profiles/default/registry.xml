@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<registry>
+    <record name="ftw.portlet.clock.url">
+        <field type="plone.registry.field.TextField">
+            <title>URL to swf file</title>
+        </field>
+        <value>http://www.sbb.ch/media/sbbclock/clock.swf?timeserver=/content/sbb/en/desktop/home.onesbb-servertime.html</value>
+    </record>
+</registry>
