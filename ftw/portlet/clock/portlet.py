@@ -33,7 +33,7 @@ class Renderer(base.Renderer):
     def __init__(self, *args):
         base.Renderer.__init__(self, *args)
 
-    def getEmbededCode(self):
+    def get_swf_url(self):
         registry = getUtility(IRegistry)
         if 'ftw.portlet.clock.url' not in registry:
             return None
