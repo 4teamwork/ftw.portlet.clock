@@ -4,6 +4,9 @@ from setuptools import setup, find_packages
 
 version = '1.0dev'
 mainainter = 'Mathias Leimgruber'
+
+tests_require = ['plone.app.testing',]
+
 setup(name='ftw.portlet.clock',
       version=version,
       description="Shows the sbb clock in a Plone portlet",
@@ -24,6 +27,8 @@ setup(name='ftw.portlet.clock',
       namespace_packages=['ftw', 'ftw.portlet', ],
       include_package_data=True,
       zip_safe=False,
+      tests_require=tests_require,
+      extras_require=dict(tests=tests_require),
       install_requires=[
           'setuptools',
       ],
