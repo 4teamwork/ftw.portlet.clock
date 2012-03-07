@@ -20,4 +20,14 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+
+    <plone:portlet
+        name="ftw.portlet.clock"
+        interface=".portlet.IClockPortlet"
+        assignment=".portlet.Assignment"
+        renderer=".portlet.Renderer"
+        addview=".portlet.AddForm"
+        />
+
+
 </configure>
