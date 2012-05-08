@@ -47,3 +47,9 @@ class TestPortlet(unittest.TestCase):
         self.assertTrue("portlet sbbclock" in renderer.render())
         registry = getUtility(IRegistry)
         self.assertTrue(registry['ftw.portlet.clock.url'] in renderer.render())
+
+    def test_assignment(self):
+        assignment = clock.Assignment()
+        self.assertEqual(
+            assignment.title,
+            u'SBB Clock')
