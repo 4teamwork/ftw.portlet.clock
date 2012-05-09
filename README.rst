@@ -26,8 +26,13 @@ Links
 - Package repository: https://github.com/4teamwork/ftw.portlet.clock
 - Issue tracker: https://github.com/4teamwork/ftw.portlet.clock/issues
 - Package on pypi: http://pypi.python.org/pypi/ftw.portlet.clock
+- Continuous integration: https://jenkins.4teamwork.ch/search?q=ftw.portlet.clock
 
-Maintainer
-==========
 
-This package is produced and maintained by `4teamwork GmbH <http://www.4teamwork.ch/>`_.
+Copyright
+=========
+
+This package is copyright by `4teamwork <http://www.4teamwork.ch/>`_.
+
+``ftw.portlet.clock`` is licensed under GNU General Public License, version 2.
+
