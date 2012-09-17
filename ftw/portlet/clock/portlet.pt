@@ -12,9 +12,9 @@
             <object type="application/x-shockwave-flash" style="width:100%;height:134px" data="" tal:attributes="data url">
             <param value="http://someurl.com" tal:attributes="value url" name="movie" />
             <param name="quality" value="high" />
+            <param name="wmode" value="opaque" />
             <param name="allowFullScreen" value="false" />
             </object>
             <p style="text-align:center" tal:content="view/getDate"></p>
     </dd>
 </dl>
-

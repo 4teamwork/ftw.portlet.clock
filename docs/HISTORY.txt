@@ -4,6 +4,9 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
+- Added parameter wmode / opaque, so the portlet is not in front of other content.
+  [Julian Infanger]
+
 - Updated buildout config.
   [mathias.leimgruber]
 
@@ -12,4 +15,3 @@ Changelog
 ----------------
 
 - Initial release
-
