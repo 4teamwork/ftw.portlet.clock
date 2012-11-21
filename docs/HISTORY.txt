@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.1 (unreleased)
+1.0.1 (2012-11-21)
 ------------------
 
 - Added parameter wmode / opaque, so the portlet is not in front of other content.
