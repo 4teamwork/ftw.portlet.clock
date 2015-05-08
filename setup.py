@@ -25,7 +25,7 @@ setup(name='ftw.portlet.clock',
         ],
 
       keywords='ftw portlet clock',
-      author='4teamwork GmbH',
+      author='4teamwork AG',
       author_email='mailto:info@4teamwork.ch',
       url='https://github.com/4teamwork/ftw.portlet.clock',
       license='GPL2',
