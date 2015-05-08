@@ -23,9 +23,9 @@ Install
 Links
 =====
 
-- Package repository: https://github.com/4teamwork/ftw.portlet.clock
-- Issue tracker: https://github.com/4teamwork/ftw.portlet.clock/issues
-- Package on pypi: http://pypi.python.org/pypi/ftw.portlet.clock
+- Github: https://github.com/4teamwork/ftw.portlet.clock
+- Issues: https://github.com/4teamwork/ftw.portlet.clock/issues
+- Pypi: http://pypi.python.org/pypi/ftw.portlet.clock
 - Continuous integration: https://jenkins.4teamwork.ch/search?q=ftw.portlet.clock
 
 
